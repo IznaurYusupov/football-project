@@ -4,8 +4,8 @@
 
       <nav>
          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Mannschaften anzeigen</a></li>
+            <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/teams">Teams</router-link></li>
             <li><a href="#">Login</a></li>
          </ul>
       </nav>
