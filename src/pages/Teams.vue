@@ -18,7 +18,61 @@
       <button class="button-anmelden">Team anmelden</button>
    </div>
 
-   
+   <div class="table-title">
+      <h4>
+         Gruppe 1:
+      </h4>
+   </div>
+
+  <div class="table">
+   <table>
+      <tr>
+         <th>Mannschaft</th>
+         <th>Spiele</th>
+         <th>Siege</th>
+         <th>Unentschieden</th>
+         <th>Niederlagen</th>
+         <th>Tordifferenz</th>
+         <th>Punkte</th>
+      </tr>
+      <tr>
+         <td>{{teams[1].name}}</td>
+         <td>6</td>
+         <td>6</td>
+         <td>0</td>
+         <td>0</td>
+         <td>13</td>
+         <td>18</td>
+      </tr>
+      <tr>
+         <td>{{teams[0].name}}</td>
+         <td>6</td>
+         <td>3</td>
+         <td>1</td>
+         <td>2</td>
+         <td>7</td>
+         <td>10</td>
+      </tr>
+      <tr>
+         <td>{{teams[2].name}}</td>
+         <td>6</td>
+         <td>2</td>
+         <td>1</td>
+         <td>3</td>
+         <td>4</td>
+         <td>7</td>
+      </tr>
+      <tr>
+         <td>{{teams[3].name}}</td>
+         <td>6</td>
+         <td>0</td>
+         <td>0</td>
+         <td>6</td>
+         <td>-15</td>
+         <td>0</td>
+      </tr>
+   </table>
+  </div>
    
 </template>
 
